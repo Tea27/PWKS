@@ -1,0 +1,16 @@
+body{
+    padding-top: 3em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-transform:uppercase;
+    text-decoration: underline;
+    font-style: italic;
+    padding-bottom: 1em;
+}
+.container{
+    background-color: rgb(235, 205, 205);
+    display: inline-block;
+}
+
