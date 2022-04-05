@@ -15,13 +15,9 @@ function rezultat(naziv){
     
 }*/
 //arrow
-let rezultat = (naziv) =>{ 
-    return (ostvareniBrBodova) =>{ 
-        return (ukupanBrB) => {        
-            alert("Iz kolegija " + naziv + " ostvarili ste: " + ((ostvareniBrBodova/ukupanBrB)*100).toFixed(2));
-            }
-        }
-    }
-             
+let rezultat = (naziv) => 
+        ostvareniBrBodova =>
+            ukupanBrB =>         
+                alert("Iz kolegija " + naziv + " ostvarili ste: " + ((ostvareniBrBodova/ukupanBrB)*100).toFixed(2));
 
 rezultat("MUP/PWKS")(25)(35);
